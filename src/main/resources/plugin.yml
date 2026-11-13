@@ -1,0 +1,13 @@
+name: StringReplenisher
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  string:
+    description: Replenishes your string inventory every 30 seconds.
+    usage: /string
+    permission: string.use
+permissions:
+  string.use:
+    description: Allows use of the /string command.
+    default: true
